@@ -1,7 +1,13 @@
 #!/usr/bin/python3
+"""
+Square module
+"""
 
 
 class Square():
+    """
+    Represent a square
+    """
 
     width = 0
     height = 0
@@ -15,6 +21,7 @@ class Square():
         return self.height * self.width
 
     def permiter_of_my_square(self):
+        """ Perimiter of the square """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
